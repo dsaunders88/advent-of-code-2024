@@ -6,4 +6,4 @@ const args = parseArgs(Deno.args, {
     string: ['day'],
 });
 
-await import(`./src/day_${args.day}/index.ts`);
+await import(`../src/day_${args.day}/index.ts`);
